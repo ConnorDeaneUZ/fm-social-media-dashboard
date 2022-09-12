@@ -1,0 +1,16 @@
+$colorPaletteSettings: (
+
+//Core
+core-white: #fff,
+core-black: #000,
+core-grey: #a1a1a1
+);
+
+@function colorPaletteSetting($key) {
+  @if map-has-key($colorPaletteSettings, $key) {
+    @return map-get($colorPaletteSettings, $key);
+  }
+
+  @warn "Unknown `#{$key}` in $colorPaletteSettings.";
+  @return null;
+}
