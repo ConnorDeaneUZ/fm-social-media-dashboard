@@ -17,6 +17,7 @@ export default {
 @import '~/assets/_color-palette.scss';
 @import '~/assets/_abstract.scss';
 
+
 .container {
   display: flex;
   justify-content: center;
