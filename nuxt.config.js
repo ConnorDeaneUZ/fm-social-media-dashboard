@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'starter-repo',
+    title: 'social-media-dashboard',
     htmlAttrs: {
       lang: 'en'
     },

@@ -1,41 +1,44 @@
 <template>
 <section class="container">
-  <div class="container-text">
-    <h1>Starter Repo</h1>
-  </div>
+
+  <primary-nav />
+
+  <card-large-container />
+
 </section>
 </template>
 
 <script>
+import PrimaryNav from '../components/PrimaryNav.vue'
+import CardLargeContainer from '../components/CardLargeContainer.vue'
+
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+
+  components: {
+    PrimaryNav,
+    CardLargeContainer
+  }
 }
 </script>
 
-
-<style lang="scss" scoped>
+<style lang="scss">
 @import '~/assets/_color-palette.scss';
 @import '~/assets/_abstract.scss';
 
-
 .container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  height: 110vh;
-  width: 100%;
-  background-color: colorPaletteSetting(core-grey);
   font-family: abstractSetting(primary_font);
-
-  @media screen and (min-width: 800px ) {
-    flex-direction: row;
-  }
+  height: 100vh;
 }
 
 body {
   margin: 0 !important;
   padding: 0 !important;
   box-sizing: border-box !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 </style>
