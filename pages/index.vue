@@ -5,19 +5,25 @@
 
   <card-large-container />
 
+  <card-small-container />
+
 </section>
 </template>
 
 <script>
 import PrimaryNav from '../components/PrimaryNav.vue'
 import CardLargeContainer from '../components/CardLargeContainer.vue'
+import CardSmall from '../components/CardSmall.vue'
+import CardSmallContainer from '../components/CardSmallContainer.vue'
 
 export default {
   name: 'IndexPage',
 
   components: {
     PrimaryNav,
-    CardLargeContainer
+    CardLargeContainer,
+    CardSmall,
+    CardSmallContainer
   }
 }
 </script>
@@ -28,7 +34,7 @@ export default {
 
 .container {
   font-family: abstractSetting(primary_font);
-  height: 100vh;
+  // height: 100vh;
 }
 
 body {

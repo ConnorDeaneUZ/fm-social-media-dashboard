@@ -63,11 +63,17 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 230px;
-  width: 270px;
+  height: 212px;
+  width: 326px;
   background-color:  #f0f3fa;
   border-top: 4px solid blue;
   border-radius: 5px;
+  margin: 10px;
+
+  @media screen and (min-width: 800px ) {
+    height: 230px;
+    width: 270px;
+  }
 
   &-wrapper {
     display: flex;

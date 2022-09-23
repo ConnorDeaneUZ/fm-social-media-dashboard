@@ -24,7 +24,7 @@ export default {
   justify-content: space-between;
   flex-direction: column;
   height: 254px;
-  // width: 100%;
+  max-width: 1440px;
   padding: 40px 25px 0 25px;
   background-color: #f8f9fe;
 
