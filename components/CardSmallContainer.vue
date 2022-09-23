@@ -37,7 +37,7 @@ export default {
   top: 250px;
   display: grid;
   justify-content: center;
-  grid-template-columns: 150px 150px 150px 150px;
+  grid-template-columns: 270px 270px 270px 270px;
   grid-template-rows: 0px;
   grid-gap: 150px;
 }

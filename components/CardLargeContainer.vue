@@ -38,8 +38,9 @@ export default {
   position: relative;
   top: -50px;
   justify-content: center;
+  align-items: center;
   display: grid;
-  grid-template-columns: 150px 150px 150px 150px;
+  grid-template-columns: 270px 270px 270px 270px;
   grid-template-rows: 0px;
   grid-gap: 150px;
   height: 100%;
