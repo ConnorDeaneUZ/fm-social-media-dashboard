@@ -24,13 +24,13 @@ export default {
   justify-content: space-between;
   flex-direction: column;
   height: 254px;
-  max-width: 1440px;
-  padding: 40px 25px 0 25px;
+  // max-width: 1440px;
+  // padding: 40px 25px 0 25px;
   background-color: #f8f9fe;
 
   @media screen and (min-width: 800px ) {
     flex-direction: row;
-    padding: 0 135px;
+    // padding: 0 135px;
   }
 
   &__header {

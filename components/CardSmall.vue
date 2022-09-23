@@ -53,6 +53,7 @@ export default {
   height: 132px;
   border-radius: 5px;
   background-color:  #f0f3fa;
+  margin: 10px;
 
   &-text {
     color: gray;

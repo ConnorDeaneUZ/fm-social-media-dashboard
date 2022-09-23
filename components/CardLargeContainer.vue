@@ -37,17 +37,16 @@ export default {
 .card-container {
   position: relative;
   top: -50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px;
+  grid-template-rows: 0px;
+  grid-gap: 150px;
   height: 100%;
-  max-width: 1440px;
   padding: 0;
 
   @media screen and (min-width: 800px ) {
     flex-direction: row;
-    padding: 0 135px;
     top: -115px;
     align-items: flex-start;
   }

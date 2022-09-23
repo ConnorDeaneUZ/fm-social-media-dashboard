@@ -34,6 +34,11 @@ export default {
 <style lang="scss" scoped>
 .card-container {
   position: relative;
-  display: flex;
+  top: 250px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 150px 150px 150px 150px;
+  grid-template-rows: 0px;
+  grid-gap: 150px;
 }
 </style>
